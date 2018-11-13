@@ -1,0 +1,54 @@
+{
+    "Monday":[
+        {
+            "id": 1,
+            "title": "pho",
+            "image": "/images/pho.jpg",
+            "description": "hahahahahahahahahahaMondayhahahahhahahahahahahah",
+            "likes": 10
+        },
+        {
+            "id": 2,
+            "title": "Salad",
+            "image": "/images/pho.jpg",
+            "description": "FuxkkkkkkkkkkkkkkkMondaykkkkkkkkkkkkkkkkkkkkkkk",
+            "likes": 8
+        }
+    ],
+    "Tuesday":[
+        {
+            "id": 1,
+            "title": "Cookie",
+            "image": "/images/pho.jpg",
+            "description": "QQQQQQQQQQQQQQQQQQTuesdayQQQQQQQQQQQQQQQQQQQQ",
+            "likes": 4
+        }
+    ],
+    "Wednesday":[
+        {
+            "id": 1,
+            "title": "Soup",
+            "image": "/images/pho.jpg",
+            "description": "OOOOOOOOOOOOOOOWednesdayOOOOOOOOOOOOOOOOOOOOOOOOOOMG",
+            "likes": 6
+        }
+    ],
+    "Thursady":[
+        {
+            "id": 1,
+            "title": "Burger",
+            "image": "/images/pho.jpg",
+            "description": "BBBBBBBBBBBBBBBBBBBBThursadyBBBBBBBBBBBBBBBBBBBBBBBBB",
+            "likes": 5
+        }
+    ],
+    "Friday":[
+        {
+            "id": 1,
+            "title": "Fries",
+            "image": "/images/pho.jpg",
+            "description": "AAAAAAAAAAAAAAAAAAAAAFridayAAAAAAAAAAAAAAAAAAAAAAA",
+            "likes": 2
+        }
+    ]
+}

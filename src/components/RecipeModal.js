@@ -33,11 +33,12 @@ class RecipeModal extends Component {
     state = {
         open: false,
         data: [],
+        id: Math.floor((Math.random()*10)+1)
       };
 
       componentDidMount() {
         //get Monday's data
-        $.get("http://localhost:3003/Monday", function(json){
+        $.get("http://localhost:3003/dish", function(json){
             this.setState({ data: json });
         }.bind(this));
       }
@@ -59,7 +60,7 @@ class RecipeModal extends Component {
 
         return(
             <div>
-             <img className="icon" src={this.state.data[0].image} alt="Pho"
+             <img className="icon" src={this.state.data[this.state.id].image} alt={this.state.data[this.state.id].title}
                   onClick={this.handleOpen}></img>
 
              <Modal
@@ -69,13 +70,13 @@ class RecipeModal extends Component {
                 onClose={this.handleClose}
              >
              <div style={getModalStyle()} className={classes.paper}>
-                <img className="bigImage" src={this.state.data[0].image} alt={this.state.data[0].title}></img>
-                <Typography variant="title" id="modal-title" align="center">{this.state.data[0].title}</Typography>
+                <img className="bigImage" src={this.state.data[this.state.id].image} alt={this.state.data[this.state.id].title}></img>
+                <Typography variant="title" id="modal-title" align="center">{this.state.data[this.state.id].title}</Typography>
                 <Typography variant="subtitle1" id="modal-description">
-                    Description: {this.state.data[0].description}
+                    Description: {this.state.data[this.state.id].description}
                 </Typography>
                 <Typography variant="subtitle1" id="modal-likes">
-                    Likes: {this.state.data[0].likes}
+                    Likes: {this.state.data[this.state.id].likes}
                 </Typography>
                 <Button 
                    variant="contained" color="primary" className={classes.button}

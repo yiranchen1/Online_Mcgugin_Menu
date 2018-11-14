@@ -1,54 +1,74 @@
 {
-    "Monday":[
+    "dish":[
         {
             "id": 1,
             "title": "pho",
             "image": "/images/pho.jpg",
-            "description": "hahahahahahahahahahaMondayhahahahhahahahahahahah",
+            "description": "hahahahahahahahahaha11111111hahahahhahahahahahahah",
             "likes": 10
         },
         {
             "id": 2,
             "title": "Salad",
             "image": "/images/pho.jpg",
-            "description": "FuxkkkkkkkkkkkkkkkMondaykkkkkkkkkkkkkkkkkkkkkkk",
+            "description": "Fuxkkkkkkkkkkkkkkk222222kkkkkkkkkkkkkkkkkkkkkkk",
             "likes": 8
-        }
-    ],
-    "Tuesday":[
+        },
         {
-            "id": 1,
+            "id": 3,
             "title": "Cookie",
             "image": "/images/pho.jpg",
-            "description": "QQQQQQQQQQQQQQQQQQTuesdayQQQQQQQQQQQQQQQQQQQQ",
+            "description": "QQQQQQQQQQQQQQQQQQ333333QQQQQQQQQQQQQQQQQQQQ",
             "likes": 4
-        }
-    ],
-    "Wednesday":[
+        },
         {
-            "id": 1,
+            "id": 4,
             "title": "Soup",
             "image": "/images/pho.jpg",
-            "description": "OOOOOOOOOOOOOOOWednesdayOOOOOOOOOOOOOOOOOOOOOOOOOOMG",
+            "description": "OOOOOOOOOOOOOOO44444444OOOOOOOOOOOOOOOOOOOOOOOOOOMG",
             "likes": 6
-        }
-    ],
-    "Thursady":[
+        },
         {
-            "id": 1,
+            "id": 5,
             "title": "Burger",
             "image": "/images/pho.jpg",
-            "description": "BBBBBBBBBBBBBBBBBBBBThursadyBBBBBBBBBBBBBBBBBBBBBBBBB",
+            "description": "BBBBBBBBBBBBBBBBBBBB555555BBBBBBBBBBBBBBBBBBBBBBBB",
             "likes": 5
-        }
-    ],
-    "Friday":[
+        },
         {
-            "id": 1,
+            "id": 6,
             "title": "Fries",
             "image": "/images/pho.jpg",
-            "description": "AAAAAAAAAAAAAAAAAAAAAFridayAAAAAAAAAAAAAAAAAAAAAAA",
+            "description": "66666666666666666666666666666666666",
             "likes": 2
+        },
+        {
+            "id": 7,
+            "title": "Taco",
+            "image": "/images/pho.jpg",
+            "description": "7777777777777777777777777777777777",
+            "likes": 6
+        },
+        {
+            "id": 8,
+            "title": "Noodles",
+            "image": "/images/pho.jpg",
+            "description": "AAAAAAAAAAAAAAAA8888888AAAAAAAAAAAAAAAAAAAAAAA",
+            "likes": 7
+        },
+        {
+            "id": 9,
+            "title": "Veggie Rolls",
+            "image": "/images/pho.jpg",
+            "description": "AAAAAAAAAAAAAAAA8888888AAAAAAAAAAAAAAAAAAAAAAA",
+            "likes": 7
+        },
+        {
+            "id": 10,
+            "title": "Sushi",
+            "image": "/images/pho.jpg",
+            "description": "AAAAAAAAAAAAAAAA8888888AAAAAAAAAAAAAAAAAAAAAAA",
+            "likes": 7
         }
     ]
 }

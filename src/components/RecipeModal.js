@@ -29,6 +29,7 @@ const styles = theme => ({
       padding: theme.spacing.unit * 3,
     },
 });
+
 class RecipeModal extends Component {
     state = {
         open: false,
@@ -37,7 +38,7 @@ class RecipeModal extends Component {
       };
 
       componentDidMount() {
-        //get Monday's data
+        //get json data
         $.get("http://localhost:3003/dish", function(json){
             this.setState({ data: json });
         }.bind(this));
@@ -57,7 +58,7 @@ class RecipeModal extends Component {
         if(this.state.data.length===0) {
             return 'Loading...'
         } 
-
+        
         return(
             <div>
              <img className="icon" src={this.state.data[this.state.id].image} alt={this.state.data[this.state.id].title}

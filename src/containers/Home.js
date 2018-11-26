@@ -8,7 +8,11 @@ export default class Home extends Component {
             <div className="Home">
                 <div className="lander">
                     <h1>Mcgugin Dining Center Menu</h1>
-                    <p>Log in to see the weekly menu</p>
+                    {
+                        this.props.isAuthenticated
+                            ? <p>Log in successful. Click to see the weekly menu</p>
+                            : <p>Log in to see the weekly menu</p>
+                    }
                 </div>
                 <div className="center">
                     <img src={mcg}/>

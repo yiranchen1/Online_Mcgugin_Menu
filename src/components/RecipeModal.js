@@ -52,13 +52,39 @@ class RecipeModal extends Component {
         this.setState({ open: false });
       };
 
+      addLike = () => {
+        //update like
+        var temp = this.state.data
+        temp[this.state.id].likes++
+        this.setState({ data: temp })
+
+        $.ajax({
+            url:'http://localhost:3003/dish/'+this.state.id,
+            dataType:'json',
+            type:'put',
+            data:{
+                "id": this.state.id,
+                "title": temp[this.state.id].title,
+                "image": temp[this.state.id].image,
+                "description": temp[this.state.id].description,
+                "likes": temp[this.state.id].likes
+            },
+            success:(data)=>{
+                console.log(data);
+            },
+            error:(err)=>{
+                console.log(err);
+            }
+        })
+      };
+
     render() {
         const { classes } = this.props;
 
         if(this.state.data.length===0) {
             return 'Loading...'
         } 
-        
+        console.log(this.state.id)
         return(
             <div>
              <img className="icon" src={this.state.data[this.state.id].image} alt={this.state.data[this.state.id].title}
@@ -76,14 +102,13 @@ class RecipeModal extends Component {
                 <Typography variant="subtitle1" id="modal-description">
                     Description: {this.state.data[this.state.id].description}
                 </Typography>
-                <Typography variant="subtitle1" id="modal-likes">
-                    Likes: {this.state.data[this.state.id].likes}
-                </Typography>
-                <Button 
-                   variant="contained" color="primary" className={classes.button}
-                   onClick={this.handleClose}>
-                   Close Modal
-                </Button>
+                <div class='ui right labeled button' role='button' tabindex='0'>
+                   <button class='ui red button' role='button' onClick={this.addLike}>
+                     <i aria-hidden='true' class='heart icon' />
+                     Like
+                   </button>
+                   <a class='ui red left pointing basic label'>{this.state.data[this.state.id].likes}</a>
+                </div>
              </div>
              </Modal>
             </div>

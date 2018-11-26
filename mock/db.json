@@ -10,63 +10,63 @@
         {
             "id": 2,
             "title": "Salad",
-            "image": "/images/pho.jpg",
-            "description": "Fuxkkkkkkkkkkkkkkk222222kkkkkkkkkkkkkkkkkkkkkkk",
+            "image": "/images/salad.jpg",
+            "description": "kkkkkkkkkkkkkkkkkkk222222kkkkkkkkkkkkkkkkkkkkkkk",
             "likes": 8
         },
         {
             "id": 3,
             "title": "Cookie",
-            "image": "/images/pho.jpg",
+            "image": "/images/cookie.jpg",
             "description": "QQQQQQQQQQQQQQQQQQ333333QQQQQQQQQQQQQQQQQQQQ",
             "likes": 4
         },
         {
             "id": 4,
-            "title": "Soup",
-            "image": "/images/pho.jpg",
+            "title": "Chicken Noodle",
+            "image": "/images/chickennoodle.jpg",
             "description": "OOOOOOOOOOOOOOO44444444OOOOOOOOOOOOOOOOOOOOOOOOOOMG",
             "likes": 6
         },
         {
             "id": 5,
             "title": "Burger",
-            "image": "/images/pho.jpg",
+            "image": "/images/burger.jpg",
             "description": "BBBBBBBBBBBBBBBBBBBB555555BBBBBBBBBBBBBBBBBBBBBBBB",
             "likes": 5
         },
         {
             "id": 6,
             "title": "Fries",
-            "image": "/images/pho.jpg",
+            "image": "/images/fries.jpg",
             "description": "66666666666666666666666666666666666",
             "likes": 2
         },
         {
             "id": 7,
             "title": "Taco",
-            "image": "/images/pho.jpg",
+            "image": "/images/taco.jpg",
             "description": "7777777777777777777777777777777777",
             "likes": 6
         },
         {
             "id": 8,
-            "title": "Noodles",
-            "image": "/images/pho.jpg",
+            "title": "Curry",
+            "image": "/images/curry.jpg",
             "description": "AAAAAAAAAAAAAAAA8888888AAAAAAAAAAAAAAAAAAAAAAA",
             "likes": 7
         },
         {
             "id": 9,
-            "title": "Veggie Rolls",
-            "image": "/images/pho.jpg",
+            "title": "Egg rolls",
+            "image": "/images/eggrolls.jpg",
             "description": "AAAAAAAAAAAAAAAA8888888AAAAAAAAAAAAAAAAAAAAAAA",
             "likes": 7
         },
         {
             "id": 10,
             "title": "Sushi",
-            "image": "/images/pho.jpg",
+            "image": "/images/sushi.jpg",
             "description": "AAAAAAAAAAAAAAAA8888888AAAAAAAAAAAAAAAAAAAAAAA",
             "likes": 7
         }

@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 import Amplify from "aws-amplify";
 import config from "./config";
-
+import 'semantic-ui-css/semantic.min.css';
 
 Amplify.configure({
     Auth: {

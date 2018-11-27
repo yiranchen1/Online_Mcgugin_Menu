@@ -32,10 +32,10 @@ class MainPage extends Component {
 
     renderMenuForDay(){
                 return(<div className="Menu">
-                    <div className="Food"><RecipeModal day = {this.state.day}/></div>
-                    <div className="Food"><RecipeModal day = {this.state.day}/></div>
-                    <div className="Food"><RecipeModal day = {this.state.day}/></div>
-                    <div className="Food"><RecipeModal day = {this.state.day}/></div>
+                    <div className="Food"><RecipeModal day = {this.state.day} idx = {0}/></div>
+                    <div className="Food"><RecipeModal day = {this.state.day} idx = {1}/></div>
+                    <div className="Food"><RecipeModal day = {this.state.day} idx = {2}/></div>
+                    <div className="Food"><RecipeModal day = {this.state.day} idx = {3}/></div>
                 </div>)
 
     }

@@ -5,77 +5,88 @@
       "title": "pho",
       "image": "/images/pho.jpg",
       "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": 10
+      "likes": 10,
+      "day": "Mon Tue"
     },
     {
       "id": 2,
       "title": "Salad",
       "image": "/images/salad.jpg",
       "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": 8
+      "likes": 8,
+      "day": "Mon Wed"
     },
     {
       "id": 3,
       "title": "Chicken Noodle",
       "image": "/images/chickennoodle.jpg",
       "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": "7"
+      "likes": "7",
+      "day": "Mon Thu"
     },
     {
       "id": 4,
-      "title": "Chicken Noodle",
-      "image": "/images/chickennoodle.jpg",
+      "title": "Cookie",
+      "image": "/images/cookie.jpg",
       "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": 6
+      "likes": 6,
+      "day": "Mon Fri"
     },
     {
       "id": 5,
       "title": "Burger",
       "image": "/images/burger.jpg",
       "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": 5
+      "likes": 5,
+      "day": "Tue Wed"
     },
     {
       "id": 6,
       "title": "Fries",
       "image": "/images/fries.jpg",
       "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": 2
+      "likes": 2,
+      "day": "Tue Thu"
     },
     {
       "id": 7,
       "title": "Taco",
       "image": "/images/taco.jpg",
       "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": 6
+      "likes": 6,
+      "day": "Tue Fri"
     },
     {
       "id": 8,
       "title": "Egg rolls",
       "image": "/images/eggrolls.jpg",
       "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": "8"
+      "likes": "8",
+      "day": "Wed Thu"
     },
     {
       "id": 9,
-      "title": "Egg rolls",
-      "image": "/images/eggrolls.jpg",
-      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": 7
-    },
-    {
-      "id": 10,
       "title": "Sushi",
       "image": "/images/sushi.jpg",
       "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": 7
+      "likes": 7,
+      "day": "Thu Fri"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Sandwich",
       "image": "/images/sandwich.jpg",
       "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": 7
+      "likes": 7,
+      "day": "Fri"
+    },
+    {
+      "id": 11,
+      "title": "Curry",
+      "image": "/images/curry.jpg",
+      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
+      "likes": 7,
+      "day": "Wed"
     }
   ]
 }

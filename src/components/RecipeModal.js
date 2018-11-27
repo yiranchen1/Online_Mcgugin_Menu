@@ -34,20 +34,23 @@ class RecipeModal extends Component {
     state = {
         open: false,
         data: [],
-        id: Math.floor((Math.random()*10)+1),
-        day: "Mon"
+        id: this.props.idx,
+        day: this.props.day
       };
-
+      
       componentDidMount() {
         //get json data
-        $.get("http://localhost:3003/dish", function(json){
-            this.setState({ data: json });
+        $.get("http://localhost:3003/dish?day_like="+this.state.day, function(json){
+            this.setState({ data: json});
         }.bind(this));
+
       }
 
-    componentWillReceiveProps({day}) {
-        this.setState({day:day,id: Math.floor((Math.random()*10)+1)})
-    }
+      componentWillReceiveProps({day}) {
+        $.get("http://localhost:3003/dish?day_like="+day, function(json){
+            this.setState({ data: json, day: day});
+        }.bind(this));
+      }
 
       handleOpen = () => {
         this.setState({ open: true });
@@ -72,7 +75,8 @@ class RecipeModal extends Component {
                 "title": temp[this.state.id].title,
                 "image": temp[this.state.id].image,
                 "description": temp[this.state.id].description,
-                "likes": temp[this.state.id].likes
+                "likes": temp[this.state.id].likes,
+                "day": temp[this.state.id].day
             },
             success:(data)=>{
                 console.log(data);

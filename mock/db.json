@@ -21,7 +21,7 @@
       "title": "Chicken Noodle",
       "image": "/images/chickennoodle.jpg",
       "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": "7",
+      "likes": 7,
       "day": "Mon Thu"
     },
     {
@@ -61,7 +61,7 @@
       "title": "Egg rolls",
       "image": "/images/eggrolls.jpg",
       "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": "8",
+      "likes": 8,
       "day": "Wed Thu"
     },
     {

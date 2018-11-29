@@ -34,7 +34,7 @@ class RecipeModal extends Component {
     state = {
         open: false,
         data: [],
-        id: this.props.idx,
+        idx: this.props.idx,
         day: this.props.day
       };
       
@@ -63,20 +63,21 @@ class RecipeModal extends Component {
       addLike = () => {
         //update like
         var temp = this.state.data
-        temp[this.state.id].likes++
+        var id = temp[this.state.idx].id
+        temp[this.state.idx].likes++
         this.setState({ data: temp })
-
+    
         $.ajax({
-            url:'http://localhost:3003/dish/'+this.state.id,
+            url:'http://localhost:3003/dish/'+id,
             dataType:'json',
             type:'put',
             data:{
-                "id": this.state.id,
-                "title": temp[this.state.id].title,
-                "image": temp[this.state.id].image,
-                "description": temp[this.state.id].description,
-                "likes": temp[this.state.id].likes,
-                "day": temp[this.state.id].day
+                "id": id,
+                "title": temp[this.state.idx].title,
+                "image": temp[this.state.idx].image,
+                "description": temp[this.state.idx].description,
+                "likes": temp[this.state.idx].likes,
+                "day": temp[this.state.idx].day
             },
             success:(data)=>{
                 console.log(data);
@@ -95,7 +96,7 @@ class RecipeModal extends Component {
         } 
         return(
             <div>
-             <img className="icon" src={this.state.data[this.state.id].image} alt={this.state.data[this.state.id].title}
+             <img className="icon" src={this.state.data[this.state.idx].image} alt={this.state.data[this.state.idx].title}
                   onClick={this.handleOpen}></img>
 
              <Modal
@@ -105,17 +106,17 @@ class RecipeModal extends Component {
                 onClose={this.handleClose}
              >
              <div style={getModalStyle()} className={classes.paper}>
-                <img className="bigImage" src={this.state.data[this.state.id].image} alt={this.state.data[this.state.id].title}></img>
-                <Typography variant="title" id="modal-title" align="center">{this.state.data[this.state.id].title}</Typography>
+                <img className="bigImage" src={this.state.data[this.state.idx].image} alt={this.state.data[this.state.idx].title}></img>
+                <Typography variant="title" id="modal-title" align="center">{this.state.data[this.state.idx].title}</Typography>
                 <Typography variant="subtitle1" id="modal-description">
-                    Description: {this.state.data[this.state.id].description}
+                    Description: {this.state.data[this.state.idx].description}
                 </Typography>
                 <div class='ui right labeled button' role='button' tabindex='0'>
                    <button class='ui red button' role='button' onClick={this.addLike}>
                      <i aria-hidden='true' class='heart icon' />
                      Like
                    </button>
-                   <a class='ui red left pointing basic label'>{this.state.data[this.state.id].likes}</a>
+                   <a class='ui red left pointing basic label'>{this.state.data[this.state.idx].likes}</a>
                 </div>
              </div>
              </Modal>

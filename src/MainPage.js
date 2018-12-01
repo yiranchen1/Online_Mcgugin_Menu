@@ -21,7 +21,6 @@ class MainPage extends Component {
                     <button className="tablinks" onClick={()=>this.handleClick("Wed")}>Wednesday</button>
                     <button className="tablinks" onClick={()=>this.handleClick("Thu")}>Thursday</button>
                     <button className="tablinks" onClick={()=>this.handleClick("Fri")}>Friday</button>
-                    <button className="tablinks" onClick={()=>this.handleClick("All")}>All</button>
                 </div>
                 <div>
                     {this.renderMenuForDay()}

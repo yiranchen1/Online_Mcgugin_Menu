@@ -4,15 +4,15 @@
       "id": 1,
       "title": "pho",
       "image": "/images/pho.jpg",
-      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": 10,
+      "description": "Pho is a Vietnamese soup consisting of broth, rice noodles called bánh phở, a few herbs, and meat, primarily made with either beef (phở bò) or chicken (phở gà).",
+      "likes": "15",
       "day": "Mon Tue"
     },
     {
       "id": 2,
       "title": "Salad",
       "image": "/images/salad.jpg",
-      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
+      "description": "Garden salad is most often composed of leafy vegetables such as lettuce varieties, spinach, or rocket (arugula).",
       "likes": 8,
       "day": "Mon Wed"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "title": "Chicken Noodle",
       "image": "/images/chickennoodle.jpg",
-      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
+      "description": "In a large pot over medium heat, melt butter. Cook onion and celery in butter until just tender. Chicken and vegetable broths and stir in chicken, noodles, carrots, basil, oregano, salt and pepper.",
       "likes": 7,
       "day": "Mon Thu"
     },
@@ -28,8 +28,8 @@
       "id": 4,
       "title": "Cookie",
       "image": "/images/cookie.jpg",
-      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
-      "likes": 6,
+      "description": "Cookies are made in a wide variety of styles, using an array of ingredients including sugars, spices, chocolate, butter, peanut butter, nuts, or dried fruits.",
+      "likes": "7",
       "day": "Mon Fri"
     },
     {

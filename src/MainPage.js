@@ -21,7 +21,6 @@ class MainPage extends Component {
                     <button className="tablinks" onClick={()=>this.handleClick("Wed")}>Wednesday</button>
                     <button className="tablinks" onClick={()=>this.handleClick("Thu")}>Thursday</button>
                     <button className="tablinks" onClick={()=>this.handleClick("Fri")}>Friday</button>
-                    <button className="tablinks" onClick={()=>this.handleClick("All")}>All</button>
                 </div>
                 <div>
                     {this.renderMenuForDay()}
@@ -31,12 +30,12 @@ class MainPage extends Component {
     }
 
     renderMenuForDay(){
-                return(<div className="Menu">
-                    <div className="Food"><RecipeModal day = {this.state.day}/></div>
-                    <div className="Food"><RecipeModal day = {this.state.day}/></div>
-                    <div className="Food"><RecipeModal day = {this.state.day}/></div>
-                    <div className="Food"><RecipeModal day = {this.state.day}/></div>
-                </div>)
+        return(<div className="Menu">
+            <div className="Food"><RecipeModal day = {this.state.day} idx = {0}/></div>
+            <div className="Food"><RecipeModal day = {this.state.day} idx = {1}/></div>
+            <div className="Food"><RecipeModal day = {this.state.day} idx = {2}/></div>
+            <div className="Food"><RecipeModal day = {this.state.day} idx = {3}/></div>
+        </div>)
 
     }
 

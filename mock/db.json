@@ -4,7 +4,7 @@
       "id": 1,
       "title": "pho",
       "image": "/images/pho.jpg",
-      "description": "Pho is a Vietnamese soup consisting of broth, rice noodles called bánh phở, a few herbs, and meat, primarily made with either beef (phở bò) or chicken (phở gà).",
+      "description": " Pho is a Vietnamese soup consisting of broth, rice noodles called bánh phở, a few herbs, and meat, primarily made with either beef (phở bò) or chicken (phở gà).",
       "likes": "15",
       "day": "Mon Tue"
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "title": "Burger",
       "image": "/images/burger.jpg",
-      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
+      "description": "Sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, or flame broiled. ",
       "likes": 5,
       "day": "Tue Wed"
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "title": "Fries",
       "image": "/images/fries.jpg",
-      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
+      "description": "French-fried potatoes are batonnet or allumette-cut deep-fried potatoes.",
       "likes": 2,
       "day": "Tue Thu"
     },

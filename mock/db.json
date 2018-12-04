@@ -4,15 +4,15 @@
       "id": 1,
       "title": "pho",
       "image": "/images/pho.jpg",
-      "description": " Pho is a Vietnamese soup consisting of broth, rice noodles called bánh phở, a few herbs, and meat, primarily made with either beef (phở bò) or chicken (phở gà).",
-      "likes": "15",
+      "description": " Pho is a Vietnamese soup consisting of broth, rice noodles called bánh phở, a few herbs, and meat, primarily made with either beef (phở bò) or chicken (phở gà). Pho is a popular street food in Vietnam and the specialty of a number of restaurant chains around the world. Pho originated in the early 20th century in northern Vietnam, and was popularized throughout the rest of the world by refugees after the Vietnam War.",
+      "likes": 8,
       "day": "Mon Tue"
     },
     {
       "id": 2,
       "title": "Salad",
       "image": "/images/salad.jpg",
-      "description": "Garden salad is most often composed of leafy vegetables such as lettuce varieties, spinach, or rocket (arugula).",
+      "description": "Garden salad is most often composed of leafy vegetables such as lettuce varieties, spinach, or rocket (arugula). They are common enough that the word salad alone often refers specifically to garden salads. Other types include bean salad, tuna salad, fattoush, Greek salad (vegetable based, but without leafy greens), and sōmen salad (a noodle-based salad). The sauce used to flavor a salad is commonly called a salad dressing.",
       "likes": 8,
       "day": "Mon Wed"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "title": "Chicken Noodle",
       "image": "/images/chickennoodle.jpg",
-      "description": "In a large pot over medium heat, melt butter. Cook onion and celery in butter until just tender. Chicken and vegetable broths and stir in chicken, noodles, carrots, basil, oregano, salt and pepper.",
+      "description": "Chicken soup is a soup made from chicken, simmered in water, usually with various other ingredients. The classic chicken soup consists of a clear chicken broth, often with pieces of chicken or vegetables; common additions are pasta, dumplings, or grains such as rice and barley. Chicken soup has acquired the reputation of a folk remedy for colds and influenza, and in many countries is considered a comfort food.",
       "likes": 7,
       "day": "Mon Thu"
     },
@@ -28,15 +28,15 @@
       "id": 4,
       "title": "Cookie",
       "image": "/images/cookie.jpg",
-      "description": "Cookies are made in a wide variety of styles, using an array of ingredients including sugars, spices, chocolate, butter, peanut butter, nuts, or dried fruits.",
-      "likes": "7",
+      "description": "Cookies are made in a wide variety of styles, using an array of ingredients including sugars, spices, chocolate, butter, peanut butter, nuts, or dried fruits. Cookies are often served with beverages such as milk, coffee or tea. Factory-made cookies are sold in grocery stores, convenience stores and vending machines. Fresh-baked cookies are sold at bakeries and coffeehouses.",
+      "likes": 7,
       "day": "Mon Fri"
     },
     {
       "id": 5,
       "title": "Burger",
       "image": "/images/burger.jpg",
-      "description": "Sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, or flame broiled. ",
+      "description": "Burger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, or flame broiled. The term burger can also be applied to the meat patty on its own, especially in the UK where the term patty is rarely used, or the term can even refer simply to ground beef.",
       "likes": 5,
       "day": "Tue Wed"
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "title": "Fries",
       "image": "/images/fries.jpg",
-      "description": "French-fried potatoes are batonnet or allumette-cut deep-fried potatoes.",
+      "description": "French-fried potatoes are batonnet or allumette-cut deep-fried potatoes. French fries are served hot, either soft or crispy, and are generally eaten as part of lunch or dinner or by themselves as a snack, and they commonly appear on the menus of diners, fast food restaurants, pubs, and bars.",
       "likes": 2,
       "day": "Tue Thu"
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "title": "Taco",
       "image": "/images/taco.jpg",
-      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
+      "description": "A taco is a traditional Mexican dish consisting of a corn or wheat tortilla folded or rolled around a filling. A taco can be made with a variety of fillings, including beef, pork, chicken, seafood, vegetables, and cheese, allowing great versatility and variety. Tacos are generally eaten without utensils, often garnished with salsa, chili pepper, avocado, guacamole, cilantro (coriander), tomatoes, onions, and lettuce.",
       "likes": 6,
       "day": "Tue Fri"
     },
@@ -60,7 +60,7 @@
       "id": 8,
       "title": "Egg rolls",
       "image": "/images/eggrolls.jpg",
-      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
+      "description": "Egg rolls are a variety of deep-fried appetizers served in American Chinese restaurants. An egg roll is a large, cylindrical, savory roll with shredded cabbage, chopped pork, and other fillings inside a thickly-wrapped wheat flour skin, which is fried in hot oil. The dish is served warm, and is usually eaten with the fingers, dipped in duck sauce, soy sauce, plum sauce, or hot mustard, often from a cellophane packet.",
       "likes": 8,
       "day": "Wed Thu"
     },
@@ -68,7 +68,7 @@
       "id": 9,
       "title": "Sushi",
       "image": "/images/sushi.jpg",
-      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
+      "description": "Sushi is a Japanese dish of specially prepared vinegared rice, usually with some sugar and salt, combined with a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits. Styles of sushi and its presentation vary widely. Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice. It is often prepared with seafood, such as calamari, eel, or imitation crab meat.",
       "likes": 7,
       "day": "Thu Fri"
     },
@@ -76,15 +76,15 @@
       "id": 10,
       "title": "Sandwich",
       "image": "/images/sandwich.jpg",
-      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
+      "description": "A sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread, or more generally any dish wherein two or more pieces of bread serve as a container or wrapper for another food type. The sandwich began as a portable finger food in the Western world, though over time it has become prevalent worldwide. Sandwiches are a popular type of lunch food, taken to work, school, or picnics to be eaten as part of a packed lunch.",
       "likes": 7,
       "day": "Fri"
     },
     {
       "id": 11,
-      "title": "Curry",
+      "title": "Chicken Curry",
       "image": "/images/curry.jpg",
-      "description": "Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.",
+      "description": "Chicken curry is a common delicacy in the Indian subcontinent, Southeast Asia, as well as in the Caribbean . A typical curry from the Indian subcontinent consists of chicken stewed in an onion- and tomato-based sauce, flavored with ginger, garlic, tomato puree, chili peppers and a variety of spices, often including turmeric, cumin, coriander, cinnamon, cardamom and so on.",
       "likes": 7,
       "day": "Wed"
     }

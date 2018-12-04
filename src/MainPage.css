@@ -2,7 +2,6 @@
     float: left;
     background-color: #f1f1f1;
     width: 30%;
-    height: 300px;
 }
 
 
@@ -18,25 +17,27 @@
     cursor: pointer;
     transition: 0.3s;
     font-size: 17px;
-    height: 90px;
+    height: 112px;
 }
 
 .tab button:hover {
-    background-color: #ddd;
+    background-color: #cccccc;
 }
 
-.tab button.active {
-    background-color: #ccc;
+.tab button:focus {
+    background-color: #5387dd;
 }
 
 .Menu{
     position: relative;
-    left: 25px;
+    top: -40px;
+    left: 20px;
+    padding: 40px;
     display: table;
 }
 
 .Food{
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     float: left;
     width: 50%;
 }
